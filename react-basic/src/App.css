@@ -57,9 +57,9 @@ header {
 }
 
 
-.icons .fa-check {
+.icons .fa-face-grin-squint-tears {
   padding: 0.487rem .5rem;
-  background: rgb(83, 164, 195);
+  background: rgb(255, 136, 0);
 }
 
 .icons .fa-trash {
@@ -74,8 +74,8 @@ header {
   background: white;
 }
 .todo button {
-  padding: 0.38rem 0.5rem;
-  background: rgb(255, 154, 2);
+  /*padding: 0.38rem 0.5rem;*/
+  /*background: rgb(255, 154, 2);*/
   color: aliceblue;
 }
 
