@@ -12,10 +12,14 @@ export const InputForm = ({taskList, setTaskList}) => {
     setTaskList([
       ...taskList,
       {
-        text: inputText
+        id: taskList.length,
+        text: inputText,
+        completed: false
       }
     ]);
-    console.log(taskList);
+    //console.log(taskList);
+    //入力した文字を消す
+    setInputText("")
   }
 
     const handleChange = (e) => {
@@ -25,7 +29,7 @@ export const InputForm = ({taskList, setTaskList}) => {
     <div>
         <div className="inputForm">
             <form onSubmit={handleSubmit}>
-                <input type="text" onChange={handleChange}/>
+                <input type="text" onChange={handleChange} value={inputText}/>
                 <button>
                 <i className ="fa-regular fa-face-frown-open"></i>
                 </button>
