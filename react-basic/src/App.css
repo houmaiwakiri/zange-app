@@ -9,7 +9,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, rgb(53, 1, 58),rgb(0, 0, 0));
+  background: linear-gradient(to bottom, rgb(187, 2, 204),rgb(86, 0, 97));
 }
 
 header {
@@ -17,7 +17,11 @@ header {
   width: 80vw;
   margin: 2rem auto;
   padding: 2rem ;
- }
+}
+
+h1{
+  color: aliceblue;
+}
 
 .inputForm {
   width: 80vh;

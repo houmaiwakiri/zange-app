@@ -21,15 +21,16 @@ export const InputForm = ({taskList, setTaskList}) => {
     //入力した文字を消す
     setInputText("")
   }
-
-    const handleChange = (e) => {
-      setInputText(e.target.value);
-    } 
+  
+  const handleChange = (e) => {
+    setInputText(e.target.value);
+  } 
+  
   return (
     <div>
         <div className="inputForm">
             <form onSubmit={handleSubmit}>
-                <input type="text" onChange={handleChange} value={inputText}/>
+                <input type="text" onChange={handleChange} value={inputText} required/>
                 <button>
                 <i className ="fa-regular fa-face-frown-open"></i>
                 </button>
