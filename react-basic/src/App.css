@@ -8,7 +8,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background: linear-gradient(to bottom, rgb(187, 2, 204),rgb(86, 0, 97));
 }
 
@@ -19,12 +19,28 @@ header {
   padding: 2rem ;
 }
 
-h1{
-  color: aliceblue;
+header h1{
+  font-size: 50px;
+  box-shadow:0px 0px 15px 20px;
+  margin: 30px;
+  padding: 10px; 
+  border:3px solid #b20000;
+}
+
+.contents{
+  box-shadow:0px 0px 15px 20px;
+  margin: 300px 50px 50px 50px;
+  border:3px solid #b20000;
+  padding: 0PX 10px;
+  display: flex;
+}
+.content{
+  flex-direction: row;
+  background-color: transparent;
+  padding: 0PX 10px;
 }
 
 .inputForm {
-  width: 80vh;
   margin: 0 auto;
   text-align: center;
   position: relative;
